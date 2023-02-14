@@ -1,0 +1,1 @@
+import EVERLANCE_LOGO from '../../images/EVERLANCE_LOGO.png';export const Navbar = () => {  return (    <nav className="bg-gray-white h-16 p-1 px-5 shadow-md shadow-black-500/50">      <div className="h-full">        <img          className="h-full"          src={EVERLANCE_LOGO}          alt="Everlance"        />      </div>    </nav>  )};
